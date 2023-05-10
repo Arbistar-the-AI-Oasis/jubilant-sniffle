@@ -1,18 +1,19 @@
 {
-  "name": "quickswap-sdk",
+  "name": "@arbistar/sdk",
   "license": "MIT",
-  "version": "3.0.20",
-  "description": "🛠 An SDK for building applications on top of Quickswap.",
+  "version": "1.0.20",
+  "description": "🛠 An SDK for building applications on top of Galah.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sameepsi/quickswap-sdk.git",
+  "repository": "https://github.com/Galah-the-Birdyhome/jubilant-sniffle.git",
   "keywords": [
-    "quickswap",
-    "matic",
-    "ethereum"
+    "arbistar",
+    "galah",
+    "ethereum",
+    "algebra"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {

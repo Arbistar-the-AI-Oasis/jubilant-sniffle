@@ -20,10 +20,12 @@ export class Currency {
   public static readonly ETHER = {
     [ChainId.MUMBAI]: new Currency(18, 'MATIC', 'Matic'),
     [ChainId.MATIC]: new Currency(18, 'MATIC', 'Matic'),
-    [ChainId.DOEGCHAIN_TESTNET]: new Currency(18, 'WDOGE', 'Wrapped Doge'),
+    [ChainId.DOGE_TESTNET]: new Currency(18, 'WDOGE', 'Wrapped Doge'),
     [ChainId.DOGECHAIN]: new Currency(18, 'WDOGE', 'Wrapped Doge'),
     [ChainId.ZKTESTNET]: new Currency(18, 'ETH', 'Ether'),
-    [ChainId.ZKEVM]: new Currency(18, 'ETH', 'Ether'),
+    [ChainId.ZK_EVM]: new Currency(18, 'ETH', 'Ether'),
+    [ChainId.ARBITRUM]: new Currency(18, 'ETH', 'Ether'),
+    [ChainId.SEPOLIA]: new Currency(18, 'ETH', 'Ether')
   }
 
   /**
